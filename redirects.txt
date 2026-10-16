@@ -1,0 +1,13 @@
+# 301 redirects from the old site to the new pages (Netlify-style: old path, new path, status).
+# The old paths below are best guesses from the old site's menu. Check each one against the
+# live site, and add any old URL that is missing, before launch.
+/en/                              /                                    301
+/en/a-propos/                     /about.html                          301
+/en/marques/                      /brands.html                         301
+/en/contact/                      /contact.html                        301
+/en/reparation-de-laveuses/       /washer-repair.html                  301
+/en/reparation-de-secheuses/      /dryer-repair.html                   301
+/en/reparation-de-four/           /oven-cooktop-repair.html            301
+/en/reparation-de-lave-vaisselle/ /dishwasher-repair.html              301
+/en/reparation-de-refrigerateurs/ /fridge-repair.html                  301
+/en/nettoyage-de-secheuses/       /dryer-repair.html                   301

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Lafix Appliance Repair | Laval and Montreal</title>
+  <meta name="description" content="Call 438 527 3337 or send a repair request. Open 6am to 8pm every day in Laval and Montreal.">
+  <!-- seo:start -->
+  <link rel="canonical" href="https://lafixappliancerepair.com/contact.html">
+  <link rel="alternate" hreflang="en" href="https://lafixappliancerepair.com/contact.html">
+  <link rel="alternate" hreflang="fr" href="https://lafixappliancerepair.com/fr/contact.html">
+  <link rel="alternate" hreflang="x-default" href="https://lafixappliancerepair.com/contact.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Lafix Appliance Repair">
+  <meta property="og:title" content="Contact | Lafix Appliance Repair | Laval and Montreal">
+  <meta property="og:description" content="Call 438 527 3337 or send a repair request. Open 6am to 8pm every day in Laval and Montreal.">
+  <meta property="og:url" content="https://lafixappliancerepair.com/contact.html">
+  <meta property="og:locale" content="en_CA">
+  <meta property="og:locale:alternate" content="fr_CA">
+  <meta property="og:image" content="https://lafixappliancerepair.com/images/washer.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- seo:end -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=Hanken+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Photos go in an images folder; file names are listed in each img tag -->
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="logo" href="index.html">lafix</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="brands.html">Brands</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+      <a class="lang-switch" href="fr/contact.html" lang="fr" data-lang="fr" aria-label="Voir ce site en français">FR</a>
+      <a class="header-call" href="tel:+14385273337">438 527 3337</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-head">
+      <div class="wrap">
+        <h1>Contact</h1>
+        <p class="lead">For a broken appliance, calling is fastest. Open 6am to 8pm, every day.</p>
+        <a class="btn-call " id="hero-call" href="tel:+14385273337">
+            <span class="btn-call-label">Call now</span>
+            <span class="btn-call-number">438 527 3337</span>
+          </a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap contact-grid">
+        <div>
+          <h2>Send a repair request</h2>
+          <p>Tell us what is wrong and where you are. We will call you back during opening hours.</p>
+          <p>Email: <a href="mailto:info@lafixappliancerepair.com">info@lafixappliancerepair.com</a></p>
+        </div>
+
+        <!-- Replace the action URL with your form handler (Formspree, Netlify Forms, or your own endpoint) -->
+        <form class="request-form" id="request-form" action="https://formspree.io/f/your-form-id" method="post" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+            <p class="error" id="name-error" role="alert"></p>
+          </div>
+          <div class="field">
+            <label for="phone">Phone number</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required>
+            <p class="error" id="phone-error" role="alert"></p>
+          </div>
+          <div class="field">
+            <label for="appliance">Appliance</label>
+            <select id="appliance" name="appliance" required>
+              <option value="">Choose one</option>
+              <option>Washer repair</option><option>Dryer repair</option><option>Oven and cooktop repair</option><option>Dishwasher repair</option><option>Fridge repair</option><option>Appliance installation</option>
+            </select>
+            <p class="error" id="appliance-error" role="alert"></p>
+          </div>
+          <div class="field">
+            <label for="city">City</label>
+            <select id="city" name="city"><option>Laval</option><option>Montreal</option><option>Other</option></select>
+          </div>
+          <div class="field">
+            <label for="message">What is it doing?</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+          </div>
+          <button class="btn-submit" type="submit">Send request</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <p class="footer-name">Réparation d'électroménagers Lafix</p>
+          <p>Laval and Montreal, Quebec</p>
+          <p><a href="mailto:info@lafixappliancerepair.com">info@lafixappliancerepair.com</a></p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="brands.html">Brands</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div class="footer-call">
+          <p>Open 6am to 8pm, every day</p>
+          <a class="footer-phone" href="tel:+14385273337">438 527 3337</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year">2026</span> Lafix</p>
+        <a class="credit" href="https://www.finosites.ca/" target="_blank" rel="noopener">
+          <img src="images/fino-sites.svg" alt="" width="24" height="24">
+          <span>Website made by Fino Sites</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <a class="call-bar" href="tel:+14385273337">Call 438 527 3337</a>
+  <script src="script.js"></script>
+</body>
+</html>
